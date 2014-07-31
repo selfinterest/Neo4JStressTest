@@ -1,0 +1,26 @@
+{
+  "name": "Neo4jStress",
+  "version": "0.0.0",
+  "description": "Stress testing for neo4j and cassandra + titan",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Terrence C. Watson <terrence.watson@contractor.cengage.com>",
+  "license": "BSD",
+  "dependencies": {
+    "body-parser": "^1.5.2",
+    "compile-mw-jade-runtime": "^0.1.2",
+    "connect-redis": "^2.0.0",
+    "express": "^4.7.2",
+    "express-session": "^1.7.2",
+    "jade": "^1.5.0",
+    "less-middleware": "^1.0.3",
+    "method-override": "^2.1.2",
+    "redis": "^0.11.0",
+    "serve-static": "^1.4.3",
+    "sonya": "0.0.13",
+    "sonya-from-directory": "0.0.2",
+    "winston": "^0.7.3"
+  }
+}
