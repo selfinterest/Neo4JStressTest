@@ -1,7 +1,7 @@
 {
-  "name": "Neo4jStress",
+  "name": "sonya-express-seed",
   "version": "0.0.0",
-  "description": "Stress testing for neo4j and cassandra + titan",
+  "description": "A seed project for Sonya with Express and good defaults.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
