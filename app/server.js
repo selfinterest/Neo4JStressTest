@@ -21,8 +21,8 @@ function server(log){
     app.set('view engine', 'jade');
     app.use(bodyParser());
     app.use(methodOverride());
-    app.use(require('less-middleware')('./public'));
-    app.use(serveStatic('./public', { maxAge: 20 }));
+    app.use(require('less-middleware')('../public'));
+    app.use(serveStatic('../public', { maxAge: 20 }));
     http.createServer(app).listen(app.get('port'), function(){
         log("Listening on "+app.get('port'));
     });

@@ -20,7 +20,7 @@
     "redis": "^0.11.0",
     "serve-static": "^1.4.3",
     "sonya": "0.0.13",
-    "sonya-from-directory": "0.0.2",
+    "sonya-from-directory": "0.0.3",
     "winston": "^0.7.3"
   }
 }
